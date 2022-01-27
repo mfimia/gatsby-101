@@ -16,7 +16,7 @@ const BlogPage = ({ data }) => {
 
 export const query = graphql`
   query {
-    allFile {
+    allFile(filter: { sourceInstanceName: { eq: "blog" } }) {
       nodes {
         name
       }
