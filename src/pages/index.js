@@ -7,7 +7,7 @@ const IndexPage = () => {
     <Layout pageTitle="Home Page">
       <p>I'm making this by following the Gatsby Tutorial.</p>
       <img
-        style={{ maxWidth: 500 }}
+        style={{ width: "100%" }}
         alt="Clifford, a reddish-brown pitbull, posing on a couch and looking stoically at the camera"
         src={codeGif}
       />
